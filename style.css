@@ -11,11 +11,11 @@ h1, p {
 }
 
 .wrap-padding {
-    padding: 8% 6%;
+    padding: 8%;
 }
 
 .container {
-    margin: 10% 5%;
+    margin: 15% 8%;
 }
 
 .head-article {
@@ -34,6 +34,7 @@ h1, p {
     color: hsl(71, 73%, 54%);
     font-weight: 700;
     margin-bottom: 5%;
+    font-size: 17px;
 }
 
 .head-article-text-grayish-blue {
@@ -41,14 +42,8 @@ h1, p {
     line-height: 26px;
 }
 
-
-
-
-
-
-
 .suscribeAndWhyUs {
-    color: white;
+    color:hsl(204, 43%, 93%);
 }
 
 .suscription {
@@ -56,9 +51,8 @@ h1, p {
 }
 
 .suscription_title {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5%;
-    font-weight: 400;
 }
 
 .price {
@@ -67,12 +61,12 @@ h1, p {
 }
 
 .suscribe-text-price {
-    color:hsl(204, 43%, 93%);
+    color: hsl(181, 52%, 64%);
     margin-bottom: 4%;
 }
 
 .suscription p:nth-child(3) {
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 .signUp-btn {
@@ -89,14 +83,24 @@ h1, p {
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
 }
 
-
-
-
-
-
-
-
-
 .whyUs {
     background-color: hsl(179, 47%, 52%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.whyUs h1 {
+    font-size: 18px;
+}
+
+.whyUs ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+
+.whyUs ul li a {
+    text-decoration: none;
+    color:hsl(204, 43%, 93%);
 }
