@@ -5,70 +5,56 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
 }
-
 h1, p {
     margin: 0;
 }
-
 .wrap-padding {
     padding: 8%;
 }
-
 .container {
     margin: 15% 8%;
 }
-
 .head-article {
     background-color: #fff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
 .head-article_title {
     color: hsl(179, 62%, 43%);
     font-size: 22px;
     margin-bottom: 5%;
 }
-
 .head-article-text-bright-yellow {
     color: hsl(71, 73%, 54%);
     font-weight: 700;
     margin-bottom: 5%;
     font-size: 17px;
 }
-
 .head-article-text-grayish-blue {
     color: hsl(218, 22%, 67%);
     line-height: 26px;
 }
-
 .suscribeAndWhyUs {
     color:hsl(204, 43%, 93%);
 }
-
 .suscription {
     background-color: hsl(179, 62%, 43%);
 }
-
 .suscription_title {
     font-size: 18px;
     margin-bottom: 5%;
 }
-
 .price {
     font-size: 36px;
     color: white;
 }
-
 .suscribe-text-price {
     color: hsl(181, 52%, 64%);
     margin-bottom: 4%;
 }
-
 .suscription p:nth-child(3) {
     margin-bottom: 10%;
 }
-
 .signUp-btn {
     background-color: hsl(71, 73%, 54%);
     font-size: 14px;
@@ -77,30 +63,63 @@ h1, p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 5% 40%;
+    width: 100%;
+    padding: 5% 0%;
     border: none;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
 }
-
 .whyUs {
     background-color: hsl(179, 47%, 52%);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
 .whyUs h1 {
     font-size: 18px;
 }
-
 .whyUs ul {
     list-style: none;
     padding: 0;
     margin-bottom: 0;
     line-height: 22px;
 }
-
 .whyUs ul li a {
     text-decoration: none;
     color:hsl(204, 43%, 93%);
+}
+
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        margin: 13% 25%;
+    }
+    .wrap-padding {
+        padding: 5%;
+    }
+    .head-article {
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+    }
+    .suscribeAndWhyUs {
+        display: flex;
+    }
+    .suscription {
+        width: 100%;
+        border-bottom-left-radius: 7px;
+    }
+    .suscription p:nth-child(3) {
+        margin-bottom: 15%;
+    }
+    .signUp-btn:hover {
+        background-color: hsl(204, 43%, 93%);
+        color: hsl(179, 62%, 43%);
+        
+    }
+    .whyUs {
+        width: 100%;
+        border-bottom-left-radius: 7px;
+        border-bottom-left-radius: 0;
+    }
 }
